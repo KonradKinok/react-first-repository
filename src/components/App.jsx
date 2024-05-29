@@ -1,8 +1,10 @@
-export const App = () => {
+
+
+export const App1 = () => {
   return (
     <div
       style={{
-        height: '100vh',
+         height: '70vh',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
@@ -10,7 +12,9 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      React homework template
     </div>
+    
+   
+    
   );
 };
