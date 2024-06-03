@@ -1,6 +1,6 @@
-import footerLogoText from '../images/footer/3KLogo.png'
-import footerLogoImage from "../images/footer/konikMaly24x24Squoosh.png"
-
+import footerLogoText from '../images/footer/3KLogo.png';
+import footerLogoImage from "../images/footer/konikMaly24x24Squoosh.png";
+import '../scss/footer.css';
 const citations = [
   { citation: "Nie bój się doskonałości. Nigdy jej nie osiągniesz.", author: "Salvador Dali" },
   { citation: "Mądrzy ludzie mają to do siebie, że dla głupich wydają się szaleni.", author: "Stephen Hawking" },

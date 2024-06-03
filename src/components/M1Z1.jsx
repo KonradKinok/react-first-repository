@@ -17,7 +17,8 @@ Product.propTypes = {
 
 export const M1Z1 = () => (
     <div >
-        <h1>Best selling products</h1>
+        <h1>Moduł 1 - Zajęcia 1 - Wprowadzenie do React</h1>
+        <h2>Best selling products</h2>
         <div style={{ display: "flex" }}>
             <Product
                 imgUrl="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?dpr=2&h=480&w=640"

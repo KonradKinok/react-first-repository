@@ -1,4 +1,12 @@
-**Read in other languages: [rosyjski](README.md), [polski](README.pl.md).**
+1. Do pliku package.json należy dodać "deploy": "gh-pages -d dist" w pierwszym {
+   ..... } na końcu
+2. Następnie należy zrobić npm install --save-dev gh-pages
+3. Następnie npm run build
+4. Poźniej npm run deploy
+5. Trzeba upewnić się czy w na githubie w general pozmieniane zostało wszystko
+   co trzeba
+6. Jeśli nie to w plikach startowych od goit jest napisana instrukcja w redeme
+7. Po zrobieniu tego należy dodać zmiany na githuba i w pages ustawić gh-pages
 
 # React homework template
 
@@ -22,11 +30,14 @@ przycisk `"Create repository from template"`.
 
 ![Creating repo from a template step 2](./assets/template-step-2.png)
 
-Po utworzeniu repozytorium, należy przejść do jego ustawień w zakładce `Settings` > `Actions` > `General`, jak pokazano na rysunku.
+Po utworzeniu repozytorium, należy przejść do jego ustawień w zakładce
+`Settings` > `Actions` > `General`, jak pokazano na rysunku.
 
 ![Settings GitHub Actions permissions step 1](./assets/gh-actions-perm-1.png)
 
-Przescrolluj stronę do samego końca, w sekcji `«Workflow permissions»` wybierz opcję `«Read and write permissions»` i zaznacz pole w checkboksie. Jest to niezbędne do automatyzacji procesu deploymentu projektu.
+Przescrolluj stronę do samego końca, w sekcji `«Workflow permissions»` wybierz
+opcję `«Read and write permissions»` i zaznacz pole w checkboksie. Jest to
+niezbędne do automatyzacji procesu deploymentu projektu.
 
 ![Settings GitHub Actions permissions step 2](./assets/gh-actions-perm-2.png)
 
