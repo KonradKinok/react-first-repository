@@ -15,7 +15,7 @@ export const App_M1Z1S2_VanillaCss = () => {
             <h1>Moduł 1 - Zajęcia 2 - Stylizacja</h1>
             <h2>Section2 Article1: Vanilla CSS</h2>
             <Alert variant="info">
-                Would you like to browse our recommended products?
+                -Would you like to browse our recommended products?
             </Alert>
             <Alert variant="error" outlined>
                 There was an error during your last transaction
