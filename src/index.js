@@ -26,10 +26,13 @@ ReactDOM.createRoot(document.querySelector('div#root')).render(
     {/* Moduł 2 - Zajęcia 3 - Zdarzenia i stany */}
     <M2Z3S2ZdarzeniaStany.Counter step={5} />
     {/* Moduł 2 - Zajęcia 3 - Zdarzenia i stany - Zmiana stanu komponentu */}
-    <M2Z3S2ZdarzeniaStany.Toggle />
+    <M2Z3S2ZdarzeniaStany.Toggle children={'children ??? czyżby ??'} />
     {/* Moduł 2 - Zajęcia 3 - Zdarzenia i stany - Zmiana stanu rodzica */}
     <M2Z3S2ZdarzeniaStany.ButtonClass />
+    <h2>Moduł 2 - Zajęcia 4 - Formularze</h2>
     <FolmularzeMetody.LoginForm onSubmit={values => console.log(values)} />
+    <h3>Article 3: Skomplikowane formularze</h3>
+    <FolmularzeMetody.SignUpForm onSubmit={values => console.log(values)} />
     {/* Footer */}
     <Footer />
   </React.StrictMode>
